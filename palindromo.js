@@ -1,3 +1,10 @@
+//hacer una funcion que a partir de un numero recibido genere el siguiente palindromo.
+//Ejemplo:
+// Dado 10 -> Se obtendria 11
+// Dado 986 -> se obtendria 989
+// Dado 33 -> se obtendria 33
+
+
 const esPalindromo = numero => {
     //Transformo el numero en texto y generar array con split , luego aplicar reverse en otro
     const arrayNumeroSeparado = numero.toString().split('');
